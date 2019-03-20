@@ -119,8 +119,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="749" />
-    <option name="y" value="34" />
+    <option name="x" value="389" />
+    <option name="y" value="45" />
     <option name="width" value="826" />
     <option name="height" value="814" />
   </component>
@@ -160,6 +160,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553123747876" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
