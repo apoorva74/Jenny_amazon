@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>BathAndBody</artifactId>
+    <artifactId>BathAndBodyworks</artifactId>
     <dependencies>
         <dependency>
-            <groupId>Com.SeleniummFramework</groupId>
+            <groupId>Com.SeleniumFramework</groupId>
             <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

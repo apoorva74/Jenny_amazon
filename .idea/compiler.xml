@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BathAndBody" />
+        <module name="BathAndBodyworks" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BathAndBody" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
