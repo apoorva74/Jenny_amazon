@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/preethikokila/Desktop/PreethiKSeleniumProject/Generic/src/main/java/databases/ConnectToSqlDB.java");
+        InputStream ism = new FileInputStream("/Users/jenniferstephen/SeleniumFramework---Group7/Generic/sql-driver/mysql-connector-java-8.0.15.tar");
         prop.load(ism);
         ism.close();
         return prop;

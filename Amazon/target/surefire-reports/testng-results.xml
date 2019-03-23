@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="46" passed="45">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AmazonTest" duration-ms="208141" started-at="2019-03-21T22:48:36Z" finished-at="2019-03-21T22:52:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="208141" started-at="2019-03-21T22:48:36Z" finished-at="2019-03-21T22:52:04Z">
+      <class name="AmazonTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:AmazonTest@7225790e]" name="setUp" is-config="true" duration-ms="1334" started-at="2019-03-21T22:48:36Z" finished-at="2019-03-21T22:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAlexaSkills()[pri:0, instance:AmazonTest@7225790e]" name="testAlexaSkills" duration-ms="2339" started-at="2019-03-21T22:48:38Z" finished-at="2019-03-21T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlexaSkills -->
+        <test-method status="PASS" signature="testBrowserTitle()[pri:0, instance:AmazonTest@7225790e]" name="testBrowserTitle" duration-ms="1214" started-at="2019-03-21T22:48:40Z" finished-at="2019-03-21T22:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserTitle -->
+        <test-method status="PASS" signature="testCategories()[pri:0, instance:AmazonTest@7225790e]" name="testCategories" duration-ms="1103" started-at="2019-03-21T22:48:41Z" finished-at="2019-03-21T22:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategories -->
+        <test-method status="PASS" signature="testCategoryAlexa()[pri:0, instance:AmazonTest@7225790e]" name="testCategoryAlexa" duration-ms="3761" started-at="2019-03-21T22:48:42Z" finished-at="2019-03-21T22:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryAlexa -->
+        <test-method status="PASS" signature="testCategoryDropdown()[pri:0, instance:AmazonTest@7225790e]" name="testCategoryDropdown" duration-ms="1269" started-at="2019-03-21T22:48:46Z" finished-at="2019-03-21T22:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryDropdown -->
+        <test-method status="PASS" signature="testCategoryGames()[pri:0, instance:AmazonTest@7225790e]" name="testCategoryGames" duration-ms="3498" started-at="2019-03-21T22:48:47Z" finished-at="2019-03-21T22:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryGames -->
+        <test-method status="PASS" signature="testClicktryprime()[pri:0, instance:AmazonTest@7225790e]" name="testClicktryprime" duration-ms="2180" started-at="2019-03-21T22:48:51Z" finished-at="2019-03-21T22:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicktryprime -->
+        <test-method status="PASS" signature="testClothingshoes()[pri:0, instance:AmazonTest@7225790e]" name="testClothingshoes" duration-ms="3124" started-at="2019-03-21T22:48:53Z" finished-at="2019-03-21T22:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClothingshoes -->
+        <test-method status="PASS" signature="testDisplayArtsAutomotive()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayArtsAutomotive" duration-ms="3650" started-at="2019-03-21T22:48:56Z" finished-at="2019-03-21T22:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayArtsAutomotive -->
+        <test-method status="PASS" signature="testDisplayAutomotiveParts()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayAutomotiveParts" duration-ms="3364" started-at="2019-03-21T22:49:00Z" finished-at="2019-03-21T22:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayAutomotiveParts -->
+        <test-method status="PASS" signature="testDisplayBabyFashion()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayBabyFashion" duration-ms="3739" started-at="2019-03-21T22:49:03Z" finished-at="2019-03-21T22:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayBabyFashion -->
+        <test-method status="PASS" signature="testDisplayBeautyPersonal()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayBeautyPersonal" duration-ms="5201" started-at="2019-03-21T22:49:07Z" finished-at="2019-03-21T22:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayBeautyPersonal -->
+        <test-method status="PASS" signature="testDisplayBooks()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayBooks" duration-ms="4122" started-at="2019-03-21T22:49:12Z" finished-at="2019-03-21T22:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayBooks -->
+        <test-method status="PASS" signature="testDisplayCd()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayCd" duration-ms="3484" started-at="2019-03-21T22:49:16Z" finished-at="2019-03-21T22:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayCd -->
+        <test-method status="PASS" signature="testDisplayComputers()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayComputers" duration-ms="4795" started-at="2019-03-21T22:49:20Z" finished-at="2019-03-21T22:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayComputers -->
+        <test-method status="PASS" signature="testDisplayCourses()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayCourses" duration-ms="2994" started-at="2019-03-21T22:49:24Z" finished-at="2019-03-21T22:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayCourses -->
+        <test-method status="PASS" signature="testDisplayCredit()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayCredit" duration-ms="2685" started-at="2019-03-21T22:49:27Z" finished-at="2019-03-21T22:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayCredit -->
+        <test-method status="PASS" signature="testDisplayDigitalMusic()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayDigitalMusic" duration-ms="3294" started-at="2019-03-21T22:49:30Z" finished-at="2019-03-21T22:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayDigitalMusic -->
+        <test-method status="PASS" signature="testDisplayElectronics()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayElectronics" duration-ms="4056" started-at="2019-03-21T22:49:33Z" finished-at="2019-03-21T22:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayElectronics -->
+        <test-method status="PASS" signature="testDisplayGarden()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayGarden" duration-ms="3880" started-at="2019-03-21T22:49:38Z" finished-at="2019-03-21T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayGarden -->
+        <test-method status="PASS" signature="testDisplayGiftCard()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayGiftCard" duration-ms="3125" started-at="2019-03-21T22:49:41Z" finished-at="2019-03-21T22:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayGiftCard -->
+        <test-method status="PASS" signature="testDisplayGrocery()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayGrocery" duration-ms="3738" started-at="2019-03-21T22:49:45Z" finished-at="2019-03-21T22:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayGrocery -->
+        <test-method status="PASS" signature="testDisplayHealth()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayHealth" duration-ms="3455" started-at="2019-03-21T22:49:48Z" finished-at="2019-03-21T22:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayHealth -->
+        <test-method status="PASS" signature="testDisplayKindle()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayKindle" duration-ms="4410" started-at="2019-03-21T22:49:52Z" finished-at="2019-03-21T22:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayKindle -->
+        <test-method status="PASS" signature="testDisplayMovies()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayMovies" duration-ms="3500" started-at="2019-03-21T22:49:56Z" finished-at="2019-03-21T22:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayMovies -->
+        <test-method status="PASS" signature="testDisplayamazonFresh()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayamazonFresh" duration-ms="3773" started-at="2019-03-21T22:50:00Z" finished-at="2019-03-21T22:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayamazonFresh -->
+        <test-method status="PASS" signature="testDisplaybag()[pri:0, instance:AmazonTest@7225790e]" name="testDisplaybag" duration-ms="5795" started-at="2019-03-21T22:50:03Z" finished-at="2019-03-21T22:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplaybag -->
+        <test-method status="PASS" signature="testDisplayfineart()[pri:0, instance:AmazonTest@7225790e]" name="testDisplayfineart" duration-ms="5540" started-at="2019-03-21T22:50:09Z" finished-at="2019-03-21T22:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayfineart -->
+        <test-method status="PASS" signature="testOpenbrowser()[pri:0, instance:AmazonTest@7225790e]" name="testOpenbrowser" duration-ms="842" started-at="2019-03-21T22:50:15Z" finished-at="2019-03-21T22:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenbrowser -->
+        <test-method status="PASS" signature="testRecommendationsforyou()[pri:0, instance:AmazonTest@7225790e]" name="testRecommendationsforyou" duration-ms="6535" started-at="2019-03-21T22:50:16Z" finished-at="2019-03-21T22:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecommendationsforyou -->
+        <test-method status="PASS" signature="testSearchbar()[pri:0, instance:AmazonTest@7225790e]" name="testSearchbar" duration-ms="9314" started-at="2019-03-21T22:50:22Z" finished-at="2019-03-21T22:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchbar -->
+        <test-method status="PASS" signature="testSearchitem()[pri:0, instance:AmazonTest@7225790e]" name="testSearchitem" duration-ms="2711" started-at="2019-03-21T22:50:31Z" finished-at="2019-03-21T22:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchitem -->
+        <test-method status="PASS" signature="testSearchitemsrefresh()[pri:0, instance:AmazonTest@7225790e]" name="testSearchitemsrefresh" duration-ms="2929" started-at="2019-03-21T22:50:34Z" finished-at="2019-03-21T22:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchitemsrefresh -->
+        <test-method status="PASS" signature="testSelectgrid()[pri:0, instance:AmazonTest@7225790e]" name="testSelectgrid" duration-ms="2944" started-at="2019-03-21T22:50:37Z" finished-at="2019-03-21T22:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectgrid -->
+        <test-method status="PASS" signature="testSelectgridSelectprime()[pri:0, instance:AmazonTest@7225790e]" name="testSelectgridSelectprime" duration-ms="1530" started-at="2019-03-21T22:50:40Z" finished-at="2019-03-21T22:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectgridSelectprime -->
+        <test-method status="FAIL" signature="testSignin()[pri:0, instance:AmazonTest@7225790e]" name="testSignin" duration-ms="31891" started-at="2019-03-21T22:50:42Z" finished-at="2019-03-21T22:51:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ap_email"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MacBook-Pro.fios-router.home', ip: 'fe80:0:0:0:14c9:3b2c:4db8:85ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56827}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e), userDataDir=/var/folders/tv/k44ynnrn7_db__2ytmglr01h0000gn/T/.org.chromium.Chromium.4eeQq1}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a80e298e14ed1158834f019861fd4788
+*** Element info: {Using=css selector, value=#ap_email}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_email"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MacBook-Pro.fios-router.home', ip: 'fe80:0:0:0:14c9:3b2c:4db8:85ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56827}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e), userDataDir=/var/folders/tv/k44ynnrn7_db__2ytmglr01h0000gn/T/.org.chromium.Chromium.4eeQq1}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a80e298e14ed1158834f019861fd4788
+*** Element info: {Using=css selector, value=#ap_email}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+at AmazonMain.Sigin(AmazonMain.java:22)
+at AmazonTest.testSignin(AmazonTest.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignin -->
+        <test-method status="PASS" signature="testWarehousedeals()[pri:0, instance:AmazonTest@7225790e]" name="testWarehousedeals" duration-ms="3323" started-at="2019-03-21T22:51:13Z" finished-at="2019-03-21T22:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWarehousedeals -->
+        <test-method status="PASS" signature="testcategorieBaby()[pri:0, instance:AmazonTest@7225790e]" name="testcategorieBaby" duration-ms="3755" started-at="2019-03-21T22:51:17Z" finished-at="2019-03-21T22:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcategorieBaby -->
+        <test-method status="PASS" signature="testcategoryAppliances()[pri:0, instance:AmazonTest@7225790e]" name="testcategoryAppliances" duration-ms="3441" started-at="2019-03-21T22:51:21Z" finished-at="2019-03-21T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcategoryAppliances -->
+        <test-method status="PASS" signature="testdeliverto()[pri:0, instance:AmazonTest@7225790e]" name="testdeliverto" duration-ms="1519" started-at="2019-03-21T22:51:24Z" finished-at="2019-03-21T22:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeliverto -->
+        <test-method status="PASS" signature="testgobackandforthSearch()[pri:0, instance:AmazonTest@7225790e]" name="testgobackandforthSearch" duration-ms="4255" started-at="2019-03-21T22:51:25Z" finished-at="2019-03-21T22:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgobackandforthSearch -->
+        <test-method status="PASS" signature="testitemsofBoys()[pri:0, instance:AmazonTest@7225790e]" name="testitemsofBoys" duration-ms="4796" started-at="2019-03-21T22:51:30Z" finished-at="2019-03-21T22:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testitemsofBoys -->
+        <test-method status="PASS" signature="testitemsofGirls()[pri:0, instance:AmazonTest@7225790e]" name="testitemsofGirls" duration-ms="7427" started-at="2019-03-21T22:51:35Z" finished-at="2019-03-21T22:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testitemsofGirls -->
+        <test-method status="PASS" signature="testitemsofMen()[pri:0, instance:AmazonTest@7225790e]" name="testitemsofMen" duration-ms="8191" started-at="2019-03-21T22:51:42Z" finished-at="2019-03-21T22:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testitemsofMen -->
+        <test-method status="PASS" signature="testitemsofwomen()[pri:0, instance:AmazonTest@7225790e]" name="testitemsofwomen" duration-ms="13205" started-at="2019-03-21T22:51:50Z" finished-at="2019-03-21T22:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testitemsofwomen -->
+        <test-method status="PASS" signature="testsearchDifferentitems()[pri:0, instance:AmazonTest@7225790e]" name="testsearchDifferentitems" duration-ms="1020" started-at="2019-03-21T22:52:03Z" finished-at="2019-03-21T22:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearchDifferentitems -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:AmazonTest@7225790e]" name="cleanUp" is-config="true" duration-ms="67" started-at="2019-03-21T22:52:04Z" finished-at="2019-03-21T22:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- AmazonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- AmazonTest -->
+</testng-results>

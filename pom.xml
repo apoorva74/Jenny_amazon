@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>BathAndBodyworks</module>
+        <module>Amazon</module>
     </modules>
 
     <dependencyManagement>

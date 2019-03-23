@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AmazonTest">
+              <span class="suite-name border-failed">AmazonTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AmazonTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AmazonTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AmazonTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AmazonTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AmazonTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AmazonTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AmazonTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods, 1 failed,   45 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AmazonTest" class="hide-methods failed suite-AmazonTest"> (hide)</a> <!-- hide-methods failed suite-AmazonTest -->
+                      <a href="#" panel-name="suite-AmazonTest" class="show-methods failed suite-AmazonTest"> (show)</a> <!-- show-methods failed suite-AmazonTest -->
+                    </span>
+                    <div class="method-list-content failed suite-AmazonTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSignin">testSignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AmazonTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonTest" class="hide-methods passed suite-AmazonTest"> (hide)</a> <!-- hide-methods passed suite-AmazonTest -->
+                      <a href="#" panel-name="suite-AmazonTest" class="show-methods passed suite-AmazonTest"> (show)</a> <!-- show-methods passed suite-AmazonTest -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testAlexaSkills">testAlexaSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testBrowserTitle">testBrowserTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testCategories">testCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testCategoryAlexa">testCategoryAlexa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testCategoryDropdown">testCategoryDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testCategoryGames">testCategoryGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testClicktryprime">testClicktryprime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testClothingshoes">testClothingshoes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayArtsAutomotive">testDisplayArtsAutomotive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayAutomotiveParts">testDisplayAutomotiveParts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayBabyFashion">testDisplayBabyFashion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayBeautyPersonal">testDisplayBeautyPersonal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayBooks">testDisplayBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayCd">testDisplayCd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayComputers">testDisplayComputers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayCourses">testDisplayCourses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayCredit">testDisplayCredit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayDigitalMusic">testDisplayDigitalMusic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayElectronics">testDisplayElectronics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayGarden">testDisplayGarden</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayGiftCard">testDisplayGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayGrocery">testDisplayGrocery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayHealth">testDisplayHealth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayKindle">testDisplayKindle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayMovies">testDisplayMovies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayamazonFresh">testDisplayamazonFresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplaybag">testDisplaybag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testDisplayfineart">testDisplayfineart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testOpenbrowser">testOpenbrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testRecommendationsforyou">testRecommendationsforyou</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSearchbar">testSearchbar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSearchitem">testSearchitem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSearchitemsrefresh">testSearchitemsrefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSelectgrid">testSelectgrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testSelectgridSelectprime">testSelectgridSelectprime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testWarehousedeals">testWarehousedeals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testcategorieBaby">testcategorieBaby</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testcategoryAppliances">testcategoryAppliances</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testdeliverto">testdeliverto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testgobackandforthSearch">testgobackandforthSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testitemsofBoys">testitemsofBoys</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testitemsofGirls">testitemsofGirls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testitemsofMen">testitemsofMen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testitemsofwomen">testitemsofwomen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmazonTest" title="AmazonTest" hash-for-method="testsearchDifferentitems">testsearchDifferentitems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmazonTest" class="panel AmazonTest">
+          <div class="suite-AmazonTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">AmazonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignin">
+                  </a> <!-- testSignin -->
+                  <span class="method-name">testSignin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_email&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;MacBook-Pro.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14c9:3b2c:4db8:85ea%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56827}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e), userDataDir=/var/folders/tv/k44ynnrn7_db__2ytmglr01h0000gn/T/.org.chromium.Chromium.4eeQq1}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a80e298e14ed1158834f019861fd4788
+*** Element info: {Using=css selector, value=#ap_email}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at AmazonMain.Sigin(AmazonMain.java:22)
+	at AmazonTest.testSignin(AmazonTest.java:12)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonTest-class-failed -->
+          <div class="suite-AmazonTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AmazonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAlexaSkills">
+                  </a> <!-- testAlexaSkills -->
+                  <span class="method-name">testAlexaSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBrowserTitle">
+                  </a> <!-- testBrowserTitle -->
+                  <span class="method-name">testBrowserTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategories">
+                  </a> <!-- testCategories -->
+                  <span class="method-name">testCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategoryAlexa">
+                  </a> <!-- testCategoryAlexa -->
+                  <span class="method-name">testCategoryAlexa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategoryDropdown">
+                  </a> <!-- testCategoryDropdown -->
+                  <span class="method-name">testCategoryDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategoryGames">
+                  </a> <!-- testCategoryGames -->
+                  <span class="method-name">testCategoryGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClicktryprime">
+                  </a> <!-- testClicktryprime -->
+                  <span class="method-name">testClicktryprime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClothingshoes">
+                  </a> <!-- testClothingshoes -->
+                  <span class="method-name">testClothingshoes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayArtsAutomotive">
+                  </a> <!-- testDisplayArtsAutomotive -->
+                  <span class="method-name">testDisplayArtsAutomotive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayAutomotiveParts">
+                  </a> <!-- testDisplayAutomotiveParts -->
+                  <span class="method-name">testDisplayAutomotiveParts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayBabyFashion">
+                  </a> <!-- testDisplayBabyFashion -->
+                  <span class="method-name">testDisplayBabyFashion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayBeautyPersonal">
+                  </a> <!-- testDisplayBeautyPersonal -->
+                  <span class="method-name">testDisplayBeautyPersonal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayBooks">
+                  </a> <!-- testDisplayBooks -->
+                  <span class="method-name">testDisplayBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayCd">
+                  </a> <!-- testDisplayCd -->
+                  <span class="method-name">testDisplayCd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayComputers">
+                  </a> <!-- testDisplayComputers -->
+                  <span class="method-name">testDisplayComputers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayCourses">
+                  </a> <!-- testDisplayCourses -->
+                  <span class="method-name">testDisplayCourses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayCredit">
+                  </a> <!-- testDisplayCredit -->
+                  <span class="method-name">testDisplayCredit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayDigitalMusic">
+                  </a> <!-- testDisplayDigitalMusic -->
+                  <span class="method-name">testDisplayDigitalMusic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayElectronics">
+                  </a> <!-- testDisplayElectronics -->
+                  <span class="method-name">testDisplayElectronics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayGarden">
+                  </a> <!-- testDisplayGarden -->
+                  <span class="method-name">testDisplayGarden</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayGiftCard">
+                  </a> <!-- testDisplayGiftCard -->
+                  <span class="method-name">testDisplayGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayGrocery">
+                  </a> <!-- testDisplayGrocery -->
+                  <span class="method-name">testDisplayGrocery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayHealth">
+                  </a> <!-- testDisplayHealth -->
+                  <span class="method-name">testDisplayHealth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayKindle">
+                  </a> <!-- testDisplayKindle -->
+                  <span class="method-name">testDisplayKindle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayMovies">
+                  </a> <!-- testDisplayMovies -->
+                  <span class="method-name">testDisplayMovies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayamazonFresh">
+                  </a> <!-- testDisplayamazonFresh -->
+                  <span class="method-name">testDisplayamazonFresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplaybag">
+                  </a> <!-- testDisplaybag -->
+                  <span class="method-name">testDisplaybag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayfineart">
+                  </a> <!-- testDisplayfineart -->
+                  <span class="method-name">testDisplayfineart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenbrowser">
+                  </a> <!-- testOpenbrowser -->
+                  <span class="method-name">testOpenbrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRecommendationsforyou">
+                  </a> <!-- testRecommendationsforyou -->
+                  <span class="method-name">testRecommendationsforyou</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchbar">
+                  </a> <!-- testSearchbar -->
+                  <span class="method-name">testSearchbar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchitem">
+                  </a> <!-- testSearchitem -->
+                  <span class="method-name">testSearchitem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchitemsrefresh">
+                  </a> <!-- testSearchitemsrefresh -->
+                  <span class="method-name">testSearchitemsrefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectgrid">
+                  </a> <!-- testSelectgrid -->
+                  <span class="method-name">testSelectgrid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectgridSelectprime">
+                  </a> <!-- testSelectgridSelectprime -->
+                  <span class="method-name">testSelectgridSelectprime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWarehousedeals">
+                  </a> <!-- testWarehousedeals -->
+                  <span class="method-name">testWarehousedeals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcategorieBaby">
+                  </a> <!-- testcategorieBaby -->
+                  <span class="method-name">testcategorieBaby</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcategoryAppliances">
+                  </a> <!-- testcategoryAppliances -->
+                  <span class="method-name">testcategoryAppliances</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testdeliverto">
+                  </a> <!-- testdeliverto -->
+                  <span class="method-name">testdeliverto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgobackandforthSearch">
+                  </a> <!-- testgobackandforthSearch -->
+                  <span class="method-name">testgobackandforthSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testitemsofBoys">
+                  </a> <!-- testitemsofBoys -->
+                  <span class="method-name">testitemsofBoys</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testitemsofGirls">
+                  </a> <!-- testitemsofGirls -->
+                  <span class="method-name">testitemsofGirls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testitemsofMen">
+                  </a> <!-- testitemsofMen -->
+                  <span class="method-name">testitemsofMen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testitemsofwomen">
+                  </a> <!-- testitemsofwomen -->
+                  <span class="method-name">testitemsofwomen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsearchDifferentitems">
+                  </a> <!-- testsearchDifferentitems -->
+                  <span class="method-name">testsearchDifferentitems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonTest-class-passed -->
+        </div> <!-- panel AmazonTest -->
+        <div panel-name="test-xml-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;AmazonTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AmazonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- AmazonTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmazonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmazonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmazonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmazonTest');
+function tableData_AmazonTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSignin')
+data.setCell(0, 2, 'AmazonTest')
+data.setCell(0, 3, 31891);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testitemsofwomen')
+data.setCell(1, 2, 'AmazonTest')
+data.setCell(1, 3, 13205);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearchbar')
+data.setCell(2, 2, 'AmazonTest')
+data.setCell(2, 3, 9314);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testitemsofMen')
+data.setCell(3, 2, 'AmazonTest')
+data.setCell(3, 3, 8191);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testitemsofGirls')
+data.setCell(4, 2, 'AmazonTest')
+data.setCell(4, 3, 7427);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRecommendationsforyou')
+data.setCell(5, 2, 'AmazonTest')
+data.setCell(5, 3, 6535);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testDisplaybag')
+data.setCell(6, 2, 'AmazonTest')
+data.setCell(6, 3, 5795);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDisplayfineart')
+data.setCell(7, 2, 'AmazonTest')
+data.setCell(7, 3, 5540);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDisplayBeautyPersonal')
+data.setCell(8, 2, 'AmazonTest')
+data.setCell(8, 3, 5201);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testitemsofBoys')
+data.setCell(9, 2, 'AmazonTest')
+data.setCell(9, 3, 4796);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDisplayComputers')
+data.setCell(10, 2, 'AmazonTest')
+data.setCell(10, 3, 4795);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDisplayKindle')
+data.setCell(11, 2, 'AmazonTest')
+data.setCell(11, 3, 4410);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testgobackandforthSearch')
+data.setCell(12, 2, 'AmazonTest')
+data.setCell(12, 3, 4255);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDisplayBooks')
+data.setCell(13, 2, 'AmazonTest')
+data.setCell(13, 3, 4122);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDisplayElectronics')
+data.setCell(14, 2, 'AmazonTest')
+data.setCell(14, 3, 4056);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDisplayGarden')
+data.setCell(15, 2, 'AmazonTest')
+data.setCell(15, 3, 3880);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDisplayamazonFresh')
+data.setCell(16, 2, 'AmazonTest')
+data.setCell(16, 3, 3773);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCategoryAlexa')
+data.setCell(17, 2, 'AmazonTest')
+data.setCell(17, 3, 3761);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcategorieBaby')
+data.setCell(18, 2, 'AmazonTest')
+data.setCell(18, 3, 3755);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testDisplayBabyFashion')
+data.setCell(19, 2, 'AmazonTest')
+data.setCell(19, 3, 3739);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testDisplayGrocery')
+data.setCell(20, 2, 'AmazonTest')
+data.setCell(20, 3, 3738);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testDisplayArtsAutomotive')
+data.setCell(21, 2, 'AmazonTest')
+data.setCell(21, 3, 3650);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testDisplayMovies')
+data.setCell(22, 2, 'AmazonTest')
+data.setCell(22, 3, 3500);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCategoryGames')
+data.setCell(23, 2, 'AmazonTest')
+data.setCell(23, 3, 3498);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDisplayCd')
+data.setCell(24, 2, 'AmazonTest')
+data.setCell(24, 3, 3484);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDisplayHealth')
+data.setCell(25, 2, 'AmazonTest')
+data.setCell(25, 3, 3455);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testcategoryAppliances')
+data.setCell(26, 2, 'AmazonTest')
+data.setCell(26, 3, 3441);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDisplayAutomotiveParts')
+data.setCell(27, 2, 'AmazonTest')
+data.setCell(27, 3, 3364);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testWarehousedeals')
+data.setCell(28, 2, 'AmazonTest')
+data.setCell(28, 3, 3323);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testDisplayDigitalMusic')
+data.setCell(29, 2, 'AmazonTest')
+data.setCell(29, 3, 3294);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testDisplayGiftCard')
+data.setCell(30, 2, 'AmazonTest')
+data.setCell(30, 3, 3125);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testClothingshoes')
+data.setCell(31, 2, 'AmazonTest')
+data.setCell(31, 3, 3124);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testDisplayCourses')
+data.setCell(32, 2, 'AmazonTest')
+data.setCell(32, 3, 2994);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testSelectgrid')
+data.setCell(33, 2, 'AmazonTest')
+data.setCell(33, 3, 2944);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSearchitemsrefresh')
+data.setCell(34, 2, 'AmazonTest')
+data.setCell(34, 3, 2929);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSearchitem')
+data.setCell(35, 2, 'AmazonTest')
+data.setCell(35, 3, 2711);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testDisplayCredit')
+data.setCell(36, 2, 'AmazonTest')
+data.setCell(36, 3, 2685);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testAlexaSkills')
+data.setCell(37, 2, 'AmazonTest')
+data.setCell(37, 3, 2339);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testClicktryprime')
+data.setCell(38, 2, 'AmazonTest')
+data.setCell(38, 3, 2180);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSelectgridSelectprime')
+data.setCell(39, 2, 'AmazonTest')
+data.setCell(39, 3, 1530);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testdeliverto')
+data.setCell(40, 2, 'AmazonTest')
+data.setCell(40, 3, 1519);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testCategoryDropdown')
+data.setCell(41, 2, 'AmazonTest')
+data.setCell(41, 3, 1269);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testBrowserTitle')
+data.setCell(42, 2, 'AmazonTest')
+data.setCell(42, 3, 1214);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCategories')
+data.setCell(43, 2, 'AmazonTest')
+data.setCell(43, 3, 1103);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testsearchDifferentitems')
+data.setCell(44, 2, 'AmazonTest')
+data.setCell(44, 3, 1020);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testOpenbrowser')
+data.setCell(45, 2, 'AmazonTest')
+data.setCell(45, 3, 842);
+window.suiteTableData['AmazonTest']= { tableData: data, tableDiv: 'times-div-AmazonTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-AmazonTest">
+              </div> <!-- times-div-AmazonTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmazonTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmazonTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AmazonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAlexaSkills</span>
+                <span class="method-start">1338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBrowserTitle</span>
+                <span class="method-start">3678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCategories</span>
+                <span class="method-start">4893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCategoryAlexa</span>
+                <span class="method-start">5996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCategoryDropdown</span>
+                <span class="method-start">9757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCategoryGames</span>
+                <span class="method-start">11026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClicktryprime</span>
+                <span class="method-start">14524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClothingshoes</span>
+                <span class="method-start">16705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayArtsAutomotive</span>
+                <span class="method-start">19829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayAutomotiveParts</span>
+                <span class="method-start">23480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayBabyFashion</span>
+                <span class="method-start">26845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayBeautyPersonal</span>
+                <span class="method-start">30584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayBooks</span>
+                <span class="method-start">35785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayCd</span>
+                <span class="method-start">39908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayComputers</span>
+                <span class="method-start">43392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayCourses</span>
+                <span class="method-start">48187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayCredit</span>
+                <span class="method-start">51181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayDigitalMusic</span>
+                <span class="method-start">53866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayElectronics</span>
+                <span class="method-start">57160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayGarden</span>
+                <span class="method-start">61216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayGiftCard</span>
+                <span class="method-start">65096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayGrocery</span>
+                <span class="method-start">68222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayHealth</span>
+                <span class="method-start">71960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayKindle</span>
+                <span class="method-start">75416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayMovies</span>
+                <span class="method-start">79826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayamazonFresh</span>
+                <span class="method-start">83326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplaybag</span>
+                <span class="method-start">87100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisplayfineart</span>
+                <span class="method-start">92895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOpenbrowser</span>
+                <span class="method-start">98435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRecommendationsforyou</span>
+                <span class="method-start">99277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchbar</span>
+                <span class="method-start">105812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchitem</span>
+                <span class="method-start">115126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchitemsrefresh</span>
+                <span class="method-start">117837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectgrid</span>
+                <span class="method-start">120766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectgridSelectprime</span>
+                <span class="method-start">123711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSignin</span>
+                <span class="method-start">125241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWarehousedeals</span>
+                <span class="method-start">157134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcategorieBaby</span>
+                <span class="method-start">160457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcategoryAppliances</span>
+                <span class="method-start">164212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testdeliverto</span>
+                <span class="method-start">167653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgobackandforthSearch</span>
+                <span class="method-start">169172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testitemsofBoys</span>
+                <span class="method-start">173427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testitemsofGirls</span>
+                <span class="method-start">178223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testitemsofMen</span>
+                <span class="method-start">185650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testitemsofwomen</span>
+                <span class="method-start">193841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testsearchDifferentitems</span>
+                <span class="method-start">207046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">208066 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
