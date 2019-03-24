@@ -12,7 +12,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.5" />
       <module name="BathAndBody" target="1.5" />
+      <module name="BathAndBodyworks" target="1.5" />
+      <module name="Generic" target="1.5" />
+      <module name="SeleniumFramework-Group7" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

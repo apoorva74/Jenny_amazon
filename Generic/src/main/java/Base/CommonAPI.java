@@ -15,7 +15,7 @@ public class CommonAPI {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver","/Users/jenniferstephen/Documents/JavaPrograms/SeleniumProject1/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","../SeleniumFramework---Group7/Generic/driver_Mac/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
@@ -23,6 +23,14 @@ public class CommonAPI {
     @AfterClass
     public void cleanUp() {
         driver.close();
+    }
+
+    public static void sleep() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
